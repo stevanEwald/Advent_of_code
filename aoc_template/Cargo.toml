@@ -1,0 +1,18 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "aoc"
+
+[[bin]]
+name = "aoc"
+path = "src/main.rs"
+
+[dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "benchmark"
+harness = false

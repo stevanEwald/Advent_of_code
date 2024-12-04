@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+    "day04",
+    "day03",
+    "day02",
+    "day01",
+]
+
+[workspace.dependencies]
+criterion = "0.5.1"

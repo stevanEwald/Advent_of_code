@@ -1,0 +1,21 @@
+[package]
+name = "day03"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "aoc"
+
+[[bin]]
+name = "day03"
+path = "src/main.rs"
+
+[dependencies]
+criterion = "0.5.1"
+regex = "1.11.1"
+
+[[bench]]
+name = "benchmark"
+harness = false
+
+
