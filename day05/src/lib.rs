@@ -53,3 +53,9 @@ pub fn part_2(input: &str) -> u32 {
         })
         .sum()
 }
+trait Encoder {
+    fn encode(data: &[u8]) -> &[u8];
+}
+trait Decoder {
+    fn decode(data: &[u8]) -> &[u8];
+}

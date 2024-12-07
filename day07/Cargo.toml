@@ -1,5 +1,5 @@
 [package]
-name = "day04"
+name = "day07"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,12 +7,12 @@ edition = "2021"
 name = "aoc"
 
 [[bin]]
-name = "day04"
+name = "day07"
 path = "src/main.rs"
 
 [dependencies]
 criterion = "0.5.1"
-utils = { version = "0.1.0", path = "../utils" }
+rayon = "1.10.0"
 
 [[bench]]
 name = "benchmark"
